@@ -162,20 +162,25 @@ main{
    .ten-years-badge p{
         font-size: 1.5rem;
    }
-/* sponsors style */
-.sponsors{
-    text-align: center;
-}
-.sponsors-img-container{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 50px;
-    gap: 40px;
-}
-.sponsors-img-container img{
-    width: 165px;
-}
+   /* footer style */
+   /* sponsors style */
+   .sponsors{
+       text-align: center;
+    }
+    .sponsors-img-container{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 50px;
+        gap: 40px;
+    }
+    .sponsors-img-container img{
+        width: 165px;
+    }
+    .footer-description{
+         padding: 20px;
+         text-align: center;
+    }
 /* responsive style */
 /* mobile devices */
 @media screen and (max-width:576px) {
@@ -207,6 +212,9 @@ main{
     }
     .facts-card-container{
         gap: 20px;
+    }
+    .footer-description{
+        padding: 5px;
     }
 }
 
